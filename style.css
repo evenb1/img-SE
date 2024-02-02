@@ -13,3 +13,19 @@ body{
     background-color: black;
     color: white;
 }
+form{
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+input{
+    flex:1;
+    height: 100%;
+    border: 1px solid white;
+    opacity: .1;
+    color: white;
+}
