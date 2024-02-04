@@ -5,17 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Photo</title>
+    <title>Picha</title>
 </head>
 <body>
-    <h1>Image Search Engine</h1>
-    <form class="search">
-        <input type="text" class="search-box" placeholder="Search anything here...">
-        <button>Search</button>
+    <header>
+        <nav>
+            <div id="logo">
+                <img src="logo.png">
+
+                <h1 id="logo-name">Picha</h1>
+            </div>
+            <div id="links">
+                <a href="">Contact</a>
+            <a href="">About</a>
+            </div>
+            
+        </nav>
+    </header>
+    <h1 id="imgs">Image Search Engine</h1>
+    <form id="search">
+        <input type="text" id="search-box" placeholder="Search anything here...">
+        <button id="search-form">Search</button>
     </form>
-    <div class="search-result">
-    </div>
-    <button class="show-more">Show More</button>
-<script src="script.js"></script>
+    <div id="search-result"></div>
+    <button id="showMore">Show More</button>
+    <script src="script.js"></script>
 </body>
 </html>
